@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+ 
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+ 
+html {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 62.5%;
+}
+ 
+header {
+   display: flex;
+   justify-content: center;
+   margin: 50px 30px;
+   text-align: center;
+}
+ 
+.search-container {
+   display: flex;
+   justify-content: center;
+   margin-top: 100px;
+}
+ 
+.search-container input {
+   width: 230px;
+   height: 30px;
+   border-radius: 20px;
+   border: none;
+   background-color: rgb(237, 234, 234);
+   padding-left: 15px;
+}
+ 
+.search-container button {
+   width: 70px;
+   height: 30px;
+   border: none;
+   border-radius: 20px;
+   color: whitesmoke;
+   background-color: #2D2D2D;
+   cursor: pointer;
+}
+ 
+.search-container button:hover{
+   background-color: #3f3f3f;
+}
+ 
+.result-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   align-items: center;
+   margin: 80px auto;
+   width: 50vw;
+ 
+}
+ 
+.research-word {
+   font-size: 4rem;
+   margin-bottom: 20px;
+}
+ 
+.meaning {
+   text-align: center;
+   font-size: 1rem;
+}
+ 
+p {
+   margin-top: 20px;
+   text-align: center;
+}
